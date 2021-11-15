@@ -26,7 +26,7 @@ while not command_data == "End":
         left_most_index = index - val
         right_most_index = index + val
         if check_if_index_is_valid(index, len(targets)) and check_if_index_is_valid(left_most_index, len(targets)) and check_if_index_is_valid(right_most_index, len(targets)):
-            left_unstriked_part = targets[: left_most_index]
+            left_ unstriked_part = targets[: left_most_index]
             right_unstriked_part = targets[right_most_index+1:]
             targets = left_unstriked_part + right_unstriked_part
 
